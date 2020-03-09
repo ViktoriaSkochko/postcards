@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { POSTCARDS } from '../mock-postcards';
 
 @Component({
   selector: 'app-postcard',
@@ -6,21 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./postcard.component.scss']
 })
 export class PostcardComponent implements OnInit {
-
-
-  postcard = [
-    {
-      text: 'hjgj',
-      country: 'uu'
-    },
-    {
-      text: '',
-      country: ''
-    }
-  ];
-
-  constructor() {
-  }
+  postcards = POSTCARDS;
+  constructor() { }
 
   ngOnInit(): void {
   }

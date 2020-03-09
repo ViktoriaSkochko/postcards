@@ -1,7 +1,7 @@
 export interface Postcard {
-  postcardId: number;
+  postcardId: string;
   fromMember: string;
   fromCountry: string;
-  sentDate: number;
-  receivedDate: number;
+  sentDate: string;
+  receivedDate: string;
 }
