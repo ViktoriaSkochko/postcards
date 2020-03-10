@@ -8,7 +8,9 @@ import { POSTCARDS } from '../mock-postcards';
 })
 export class PostcardComponent implements OnInit {
   postcards = POSTCARDS;
-  constructor() { }
+
+  constructor() {
+  }
 
   ngOnInit(): void {
   }

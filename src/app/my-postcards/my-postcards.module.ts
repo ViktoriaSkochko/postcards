@@ -5,8 +5,8 @@ import { ReceivedComponent } from './received/received.component';
 import { RouterModule, Routes } from '@angular/router';
 
 const myPostcardsRoutes: Routes = [
-  { path: 'sent',  component: SentComponent },
-  { path: 'received',  component: ReceivedComponent }
+  { path: 'sent', component: SentComponent },
+  { path: 'received', component: ReceivedComponent }
 ];
 
 @NgModule({
@@ -16,4 +16,5 @@ const myPostcardsRoutes: Routes = [
     RouterModule.forChild(myPostcardsRoutes)
   ]
 })
-export class MyPostcardsModule { }
+export class MyPostcardsModule {
+}

@@ -4,7 +4,7 @@ import { StatisticsContainerComponent } from './statistics-container/statistics-
 import { RouterModule, Routes } from '@angular/router';
 
 const statisticsRoutes: Routes = [
-  { path: '',  component: StatisticsContainerComponent }
+  { path: '', component: StatisticsContainerComponent }
 ];
 
 @NgModule({
@@ -14,4 +14,5 @@ const statisticsRoutes: Routes = [
     RouterModule.forChild(statisticsRoutes)
   ]
 })
-export class StatisticsModule { }
+export class StatisticsModule {
+}

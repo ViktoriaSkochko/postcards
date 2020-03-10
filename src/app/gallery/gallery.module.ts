@@ -4,7 +4,7 @@ import { GalleryContainerComponent } from './gallery-container/gallery-container
 import { RouterModule, Routes } from '@angular/router';
 
 const galleryRoutes: Routes = [
-  { path: '',  component: GalleryContainerComponent }
+  { path: '', component: GalleryContainerComponent }
 ];
 
 @NgModule({
@@ -14,4 +14,5 @@ const galleryRoutes: Routes = [
     RouterModule.forChild(galleryRoutes)
   ]
 })
-export class GalleryModule { }
+export class GalleryModule {
+}

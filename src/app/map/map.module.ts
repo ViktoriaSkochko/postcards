@@ -4,7 +4,7 @@ import { MapContainerComponent } from './map-container/map-container.component';
 import { RouterModule, Routes } from '@angular/router';
 
 const mapRoutes: Routes = [
-  { path: '',  component: MapContainerComponent }
+  { path: '', component: MapContainerComponent }
 ];
 
 @NgModule({
@@ -14,4 +14,5 @@ const mapRoutes: Routes = [
     RouterModule.forChild(mapRoutes)
   ]
 })
-export class MapModule { }
+export class MapModule {
+}

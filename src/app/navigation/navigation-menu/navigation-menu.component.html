@@ -1,19 +1,20 @@
 <mat-toolbar>
   <mat-toolbar-row>
-    <button mat-button [matMenuTriggerFor]="menu">ЛИСТІВКИ</button>
+    <button [matMenuTriggerFor]="menu" mat-button>ЛИСТІВКИ</button>
     <mat-menu #menu="matMenu">
       <button mat-menu-item routerLink="my-postcards/sent">
         <mat-icon>favorite</mat-icon>
-        Відправлені</button>
+        Відправлені
+      </button>
       <button mat-menu-item routerLink="my-postcards/received">
         <mat-icon>favorite</mat-icon>
-        Отримані</button>
+        Отримані
+      </button>
     </mat-menu>
     <button mat-button routerLink="gallery">Галерея</button>
     <button mat-button routerLink="map">Карта</button>
     <button mat-button routerLink="statistics">Статистика</button>
     <span class="example-spacer"></span>
-
   </mat-toolbar-row>
 </mat-toolbar>
 
