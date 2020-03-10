@@ -6,20 +6,23 @@ export const POSTCARDS: Postcard[] = [
     fromMember: 'hmassese',
     fromCountry: 'Australia',
     sentDate: '13/Nov/2012',
-    receivedDate: '26/Nov/2012'
+    receivedDate: '26/Nov/2012',
+    isSent: false
   },
   {
     postcardId: 'CF-130',
     fromMember: 'estherkurz',
     fromCountry: 'Central African Republic',
     sentDate: '6/May/2015',
-    receivedDate: '27/Jun/2015'
+    receivedDate: '27/Jun/2015',
+    isSent: false
   },
   {
     postcardId: 'GG-15141',
     fromMember: 'Hectorious',
     fromCountry: 'Guernsey',
     sentDate: '16/Feb/2019',
-    receivedDate: '26/Feb/2019'
+    receivedDate: '26/Feb/2019',
+    isSent: true
   }
 ];

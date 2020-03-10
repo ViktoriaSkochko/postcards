@@ -4,4 +4,5 @@ export interface Postcard {
   fromCountry: string;
   sentDate: string;
   receivedDate: string;
+  isSent: boolean;
 }

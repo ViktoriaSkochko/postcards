@@ -7,6 +7,9 @@ import { PostcardComponent } from './postcard/postcard.component';
   declarations: [PostcardComponent],
   imports: [
     CommonModule
+  ],
+  exports: [
+    PostcardComponent
   ]
 })
 export class PostcardModule {

@@ -1,1 +1,12 @@
-<p>received works!</p>
+<div *ngFor="let postcard of postcards">
+  <div *ngIf="!postcard.isSent">
+    {{postcard.postcardId}}
+    {{postcard.fromCountry}}
+    {{postcard.fromMember}}
+    {{postcard.receivedDate}}
+    {{postcard.sentDate}}
+  </div>
+</div>
+
+
+<app-postcard></app-postcard>
