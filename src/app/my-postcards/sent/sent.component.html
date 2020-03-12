@@ -1,1 +1,11 @@
-<p>sent works!</p>
+<ng-container *ngFor="let postcard of postcards">
+  <div class="postcard" *ngIf="postcard.isSent">
+    <div class="container">
+      {{postcard.postcardId}}
+      {{postcard.fromCountry}}
+      {{postcard.fromMember}}
+      {{postcard.sentDate}}
+    </div>
+  </div>
+</ng-container>
+<app-postcard></app-postcard>

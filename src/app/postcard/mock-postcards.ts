@@ -6,7 +6,6 @@ export const POSTCARDS: Postcard[] = [
     fromMember: 'hmassese',
     fromCountry: 'Australia',
     sentDate: '13/Nov/2012',
-    receivedDate: '26/Nov/2012',
     isSent: false
   },
   {
@@ -14,7 +13,6 @@ export const POSTCARDS: Postcard[] = [
     fromMember: 'estherkurz',
     fromCountry: 'Central African Republic',
     sentDate: '6/May/2015',
-    receivedDate: '27/Jun/2015',
     isSent: false
   },
   {
@@ -22,7 +20,27 @@ export const POSTCARDS: Postcard[] = [
     fromMember: 'Hectorious',
     fromCountry: 'Guernsey',
     sentDate: '16/Feb/2019',
-    receivedDate: '26/Feb/2019',
+    isSent: false
+  },
+  {
+    postcardId: 'UA-1590770',
+    fromMember: 'Marisakend',
+    fromCountry: 'South Africa',
+    sentDate: '7/Sep/2017',
+    isSent: true
+  },
+  {
+    postcardId: 'UA-147060',
+    fromMember: 'decynug',
+    fromCountry: 'Indonesia',
+    sentDate: '27/Sep/2011',
+    isSent: true
+  },
+  {
+    postcardId: 'UA-420793',
+    fromMember: 'ede001',
+    fromCountry: 'Estonia',
+    sentDate: '26/Nov/2012',
     isSent: true
   }
 ];

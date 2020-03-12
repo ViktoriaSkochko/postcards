@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { POSTCARDS } from '../../postcard/mock-postcards';
 
 @Component({
   selector: 'app-sent',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./sent.component.scss']
 })
 export class SentComponent implements OnInit {
+  postcards = POSTCARDS;
 
   constructor() {
   }
