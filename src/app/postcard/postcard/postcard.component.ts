@@ -7,7 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./postcard.component.scss']
 })
 export class PostcardComponent implements OnInit {
-@Input() postcard;
+  @Input() postcard;
 
   constructor() {
   }
