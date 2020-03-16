@@ -1,15 +1,6 @@
 <ng-container *ngFor="let postcard of postcards">
-  <div class="postcard" *ngIf="!postcard.isSent">
-    <div class="container">
-      <div class="item">
-        <span>{{postcard.postcardId}}</span>
-        <span>{{postcard.fromCountry}}</span>
-      </div>
-      <div class="item">
-        <span>{{postcard.fromMember}}</span>
-        <span>{{postcard.sentDate}}</span>
-      </div>
-    </div>
-  </div>
+  <ng-container *ngIf="!postcard.isSent">
+    <app-postcard [postcard]="postcard"></app-postcard>
+  </ng-container>
 </ng-container>
-<app-postcard></app-postcard>
+

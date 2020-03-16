@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { POSTCARDS } from '../mock-postcards';
+import { Component, Input, OnInit } from '@angular/core';
+
 
 @Component({
   selector: 'app-postcard',
@@ -7,7 +7,7 @@ import { POSTCARDS } from '../mock-postcards';
   styleUrls: ['./postcard.component.scss']
 })
 export class PostcardComponent implements OnInit {
-  postcards = POSTCARDS;
+@Input() postcard;
 
   constructor() {
   }

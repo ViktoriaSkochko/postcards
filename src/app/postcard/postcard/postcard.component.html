@@ -1,1 +1,15 @@
-<p>postcard works!</p>
+<div class="postcard">
+  <div class="container">
+    <div class="item">
+      <span>{{postcard.postcardId}}</span>
+      <span class="country">
+          <span class="borders"></span>
+          <span class="text"> {{postcard.fromCountry}}</span>
+        </span>
+    </div>
+    <div class="item">
+      <span>{{postcard.fromMember}}</span>
+      <span>{{postcard.sentDate}}</span>
+    </div>
+  </div>
+</div>
